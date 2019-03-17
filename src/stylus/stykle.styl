@@ -1,0 +1,25 @@
+pc()
+  @media screen and (min-width: 769px)
+    {block}
+
+sp()
+  @media screen and (max-width: 768px)
+    {block}
+
+body
+ width 100%
+ color #222222
+ font-size 14px
+ background-color #fff
+ +pc()
+  margin 50PX
+ +sp()
+  margin 0
+
+li
+ list-style none
+ +pc()
+  margin 50PX
+ +sp()
+  margin 0
+
