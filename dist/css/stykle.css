@@ -1,0 +1,25 @@
+body {
+  width: 100%;
+  color: #222;
+  font-size: 14px;
+  background-color: #fff;
+}
+li {
+  list-style: none;
+}
+@media screen and (min-width: 769px) {
+  body {
+    margin: 50PX;
+  }
+  li {
+    margin: 50PX;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    margin: 0;
+  }
+  li {
+    margin: 0;
+  }
+}
