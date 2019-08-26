@@ -1,0 +1,146 @@
+/*Sudie's CSS Reset*/
+* {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+html, body,
+h1, h2, h3, h4, h5, h6,
+a, p, span,
+em, small, strong,
+sub, sup,
+mark, del, ins, strike,
+abbr, dfn,
+blockquote, q, cite,
+code, pre,
+ol, ul, li, dl, dt, dd,
+div, section, article,
+main, aside, nav,
+header, hgroup, footer,
+img, figure, figcaption,
+address, time,
+audio, video,
+canvas, iframe,
+details, summary,
+fieldset, form, label, legend,
+table, caption,
+tbody, tfoot, thead,
+tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.4;
+}
+
+a,
+a:visited {
+    color: inherit;
+}
+
+*:before,
+*:after {
+    text-decoration: inherit;
+    vertical-align: inherit;
+    background-repeat: no-repeat;
+    box-sizing: inherit;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img,
+video {
+    max-width: 100%;
+}
+
+img {
+    border-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+[hidden] {
+    display: none;
+}
+
+[disabled] {
+    cursor: not-allowed;
+}
+
+a:active,
+a:hover {
+    outline-width: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+
+small {
+    font-size: 80%;
+}
+
+input {
+    border-radius: 0;
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"],
+[role="button"] {
+    cursor: pointer;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font: inherit;
+}
+
+button,
+input,
+select,
+textarea {
+    background-color: transparent;
+    border-style: none;
+    color: inherit;
+}
+/*Sudie's CSS Reset-end*/
